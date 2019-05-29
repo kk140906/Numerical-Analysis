@@ -35,7 +35,7 @@ print("y =",y)
 
 # test 2 编程问题1 
 print("Code 0.1:")
-test = multNest(1.00001,50,np.ones((51,)),np.zeros((51,)))
+test = multNest(1.00001,50,np.ones((51,)),np.zeros((50,)))
 for i in range(50):
     y=next(test)
 q = (1.00001 ** 51 -1) / (1.00001 -1)
